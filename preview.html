@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AASILEZKAR EXPORTERS</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f8fafc;
+color:#1e293b;
+}
+
+/* HEADER */
+
+header{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:15px 60px;
+background:#064e3b;
+color:white;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+.logo img{
+height:60px;
+}
+
+nav a{
+margin:0 15px;
+color:white;
+text-decoration:none;
+font-weight:500;
+}
+
+nav a:hover{
+color:#facc15;
+}
+
+/* HERO */
+
+.hero{
+height:75vh;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+text-align:center;
+background:linear-gradient(120deg,#064e3b,#10b981);
+color:white;
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:20px;
+opacity:.9;
+}
+
+/* SECTION */
+
+.section{
+padding:80px 60px;
+}
+
+.section h2{
+text-align:center;
+margin-bottom:40px;
+font-size:36px;
+color:#064e3b;
+}
+
+/* PRODUCTS */
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+
+.product-box{
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.product-box:hover{
+transform:translateY(-8px);
+}
+
+.product-box h3{
+color:#059669;
+margin-bottom:20px;
+text-align:center;
+}
+
+.product-box ul{
+list-style:none;
+line-height:1.9;
+}
+
+.product-box li::before{
+content:"✔ ";
+color:#10b981;
+}
+
+/* ABOUT */
+
+.about{
+max-width:900px;
+margin:auto;
+text-align:center;
+line-height:1.8;
+font-size:17px;
+}
+
+/* CONTACT */
+
+.contact{
+text-align:center;
+line-height:2;
+font-size:18px;
+}
+
+/* FOOTER */
+
+footer{
+background:#064e3b;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+/* WHATSAPP */
+
+.whatsapp{
+position:fixed;
+bottom:25px;
+right:25px;
+background:#25D366;
+color:white;
+font-size:28px;
+padding:15px 18px;
+border-radius:50%;
+text-decoration:none;
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+</style>
+</head>
+
+<body>
+
+
+<header>
+
+<div class="logo">
+<img src="logo.png">
+<h2>AASILEZKAR EXPORTERS</h2>
+</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#products">Products</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+
+<section class="hero">
+
+<h1>Premium Agro Export Company</h1>
+
+<p>Rice • Spices • Nuts Exporters from India</p>
+
+</section>
+
+
+
+<section id="products" class="section">
+
+<h2>Our Export Products</h2>
+
+<div class="products">
+
+<div class="product-box">
+
+<h3>Rice Varieties</h3>
+
+<ul>
+<li>1121 Basmati Rice</li>
+<li>1509 Basmati Rice</li>
+<li>1718 Basmati Rice</li>
+<li>Sugandha Basmati Rice</li>
+<li>IR64 Non Basmati Rice</li>
+<li>Sona Masoori Rice</li>
+</ul>
+
+</div>
+
+
+<div class="product-box">
+
+<h3>Spices</h3>
+
+<ul>
+<li>Turmeric</li>
+<li>Black Pepper</li>
+<li>Cardamom</li>
+<li>Cumin Seeds</li>
+<li>Coriander Seeds</li>
+<li>Dry Red Chilli</li>
+</ul>
+
+</div>
+
+
+<div class="product-box">
+
+<h3>Nuts</h3>
+
+<ul>
+<li>Cashew Nuts</li>
+<li>Almonds</li>
+<li>Pistachios</li>
+<li>Walnuts</li>
+<li>Groundnuts / Peanuts</li>
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section id="about" class="section">
+
+<h2>About AASILEZKAR EXPORTERS</h2>
+
+<p class="about">
+
+AASILEZKAR EXPORTERS is a trusted Indian agricultural export company supplying high-quality rice, spices, and nuts to international markets.  
+Our focus is on premium quality, reliable delivery, and long-term global partnerships.
+
+</p>
+
+</section>
+
+
+<section id="contact" class="section">
+
+<h2>Contact Us</h2>
+
+<div class="contact">
+
+📧 aasilezkar096@gmail.com<br>
+📧 aasilezkar.riceexporters@gmail.com<br><br>
+
+📞 +91 8098019710<br>
+📞 +91 8682019710<br><br>
+
+📍 Aladikalam Katchanam Main Road<br>
+Thiruthuraipoondi Taluk<br>
+Thiruvarur District<br>
+Tamil Nadu, India
+
+</div>
+
+</section>
+
+
+<footer>
+
+© 2026 AASILEZKAR EXPORTERS | All Rights Reserved
+
+</footer>
+
+
+<a class="whatsapp" href="https://wa.me/918098019710">💬</a>
+
+
+</body>
+</html>
